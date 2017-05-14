@@ -1,0 +1,8 @@
+<phpunit colors="true">
+	<testsuites>
+		<testsuite name="Stinkers Test Suite">
+			<directory>./tests/</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
+
