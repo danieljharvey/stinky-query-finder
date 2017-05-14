@@ -38,6 +38,16 @@ Yeah, unfortunately so, so please please please don't use this in production. If
 
 ~~~~
 
+$tables = $stinkers->getTables();
+
+cacheTablesDataWithYourExcellentCachingSolution($tables);
+
+~~~~
+
+Then you're free to use it again like this:
+
+~~~~
+
 $dbName="excellentDB"
 $tables = getCachedTablesFromYourGreatCachingFunction();
 
