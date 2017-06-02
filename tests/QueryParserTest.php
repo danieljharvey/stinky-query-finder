@@ -98,5 +98,9 @@ class QueryParserTest extends StinkyCase {
 			"Could not correctly parse out columns in query"
 		);
 	}
+
+	public function testFalseIsTrue() {
+		$this->assertFalse(true);
+	}
 }
 
